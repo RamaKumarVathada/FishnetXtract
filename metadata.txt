@@ -1,15 +1,15 @@
 [general]
 name=FishnetXtract
 qgisMinimumVersion=3.0
-experimental=False
 qgisMaximumVersion=4.99
-description=Generates exact vector fishnets (OSM11/OSM9) based on the NPS/OSM tile system, extracts structural grids, and intersects network coverage (DB_COVR). Supports multi-AOI batch processing.
-about=Generates exact vector fishnets (OSM11/OSM9) based on the NPS/OSM tile system. Supports batch processing of multiple AOI files. Splits outputs into CPS (OSM) and NPS (T32/T08) coverage files. Includes strict MFD extraction filtering and retains original attributes (Note: Garmin Internal Use Only)
-version=1.0.00
-email=ram.garmin986@gmail.com
+version=2.0
 author=Rama Kumar Vathada
-updates=To Select T32 and T08 from local path to make it process faster.
-tags=grid, fishnet, osm, batch, clip, mfd, network coverage, spatial join
+email=ram.garmin986@gmail.com
+experimental=False
+description=Generates exact vector fishnets (OSM11/OSM9) based on the NPS/OSM tile system, extracts structural grids, and intersects network coverage (DB_COVR). Supports multi-AOI batch processing.
+about=Generates exact vector fishnets (OSM11/OSM9) based on the NPS/OSM tile system. Supports batch processing of multiple AOI files. Splits outputs into CPS (OSM) and NPS (T32/T08) coverage files. Includes strict MFD extraction filtering and retains original attributes (Note: Garmin Internal Use Only).
+updates=log file created separately. 
+tags=Grid,extraction,fishnet, osm, batch, clip, mfd, network coverage, spatial join
 repository=https://github.com/RamaKumarVathada/FishnetXtract
 tracker=https://github.com/RamaKumarVathada/FishnetXtract/issues
 homepage=https://github.com/RamaKumarVathada/FishnetXtract
